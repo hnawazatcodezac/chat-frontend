@@ -10,7 +10,7 @@ function LoginForm() {
   const login = async () => {
     try {
       const response = await fetch(
-        "https://merry-monstera-6e2723.netlify.app/.netlify/functions/api/login",
+        "https://effortless-douhua-2c7809.netlify.app/.netlify/functions/api/login",
         {
           method: "POST",
           headers: {

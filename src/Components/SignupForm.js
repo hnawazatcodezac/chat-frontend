@@ -13,7 +13,7 @@ function SignupForm() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://merry-monstera-6e2723.netlify.app/.netlify/functions/api/register",
+        "https://effortless-douhua-2c7809.netlify.app/.netlify/functions/api/register",
         {
           method: "POST",
           headers: {

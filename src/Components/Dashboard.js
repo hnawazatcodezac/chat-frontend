@@ -46,7 +46,7 @@ function Dashboard() {
     const token = localStorage.getItem("token");
     if (token) {
       const socket = io(
-        "https://merry-monstera-6e2723.netlify.app/.netlify/functions/api",
+        "https://effortless-douhua-2c7809.netlify.app/.netlify/functions/api",
         {
           auth: { token },
           autoConnect: false,
